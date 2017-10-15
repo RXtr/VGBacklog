@@ -1,0 +1,16 @@
+{
+    "name": "rxtr/vgbacklog",
+    "description": "this is my description",
+    "type": "project",
+    "license": "don't touch it",
+    "minimum-stability": "stable",
+    "autoload": {
+	    "psr-4":{
+        "VGBacklog\\":"src/"
+	    }
+    },
+    "require": {
+        "nikic/fast-route":"^1.0",
+        "firebase/php-jwt": "^4.0"
+    }
+}
